@@ -1,0 +1,872 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+h2{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 28px;
+    padding: 22px 0;
+    color: #666262;
+}
+
+h4{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    margin: 22px 0;
+    color: #666262;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 19px;
+    margin: 19px 0;
+    color: #666262;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+}
+
+hr{
+    margin: 0px;
+    padding: 0x;
+    border:1px solid #f58a3c;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.container{
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    width: 80px;
+}
+
+.navbar nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav ul{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.navbar nav ul a li{
+    list-style-type: none;
+    margin: 0 8.5px;
+    font-weight: bold;
+
+}
+
+.hero{
+    width: 100%;
+    background-color: #ecf2f4;
+    padding-top: 50px;
+}
+
+.hero__container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img__header img{
+    width: 250px;
+    margin: 20px 0;
+    margin-left: 100px;
+}
+
+.about{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img__about img{
+    width: 100%;
+}
+
+.info__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info__about h2{
+    width: inherit;
+    margin: auto;
+}
+
+.info__about a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+}
+
+
+.info__about a button{
+    background-color: white;
+    color: #99b4bf;
+    border: 2px solid #99b4bf;
+}
+
+.services{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services__type{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+.card__services{
+    width: 90%;;
+    margin: 20px;
+    padding: 20px 50px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__services img{
+    width: 150px;
+}
+
+.card__services a button{
+    background-color: #f58a3c;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 220px;
+    margin: auto;
+}
+
+.services .icon__scroll{
+    width: 90%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .icon__scroll img{
+    width: 100px;
+}
+
+.numbers__clinic{
+    background-color: #ECF2F4;
+}
+
+.numbers__clinic--container{
+    width: 90%;
+    margin: auto;
+    padding-top: 22px;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.numbers__clinic--container h4{
+    margin: 0;
+    padding: 0;
+}
+
+.container__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;;
+}
+
+.doctor__appointment{
+    padding-bottom: 50px;
+    background-color:#ECF2F4;
+}
+
+.info__doctor--appointment{
+    width: 90%;
+    margin: auto;
+}
+
+.info__doctor--appointment h2{
+    margin-top: 0;
+}
+
+.call__appointment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call__appointment a button{
+    margin-bottom: 15px;
+}
+
+a .btn-appointment {
+    background-color: #f58a3c;
+    font-size: 15px;
+}
+
+.btn-call{
+    background-color: green;
+    font-size: 15px;
+}
+
+.img__doctor--appointment{
+    width: 90%;
+    margin: auto;
+}
+
+.img__doctor--appointment img{
+    width: 100%;
+}
+
+.contact{
+    margin: 30px 0;
+}
+
+.contact__container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container iframe{
+    width: 110%;
+}
+
+.form__contact{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:#ECF2F4;
+    cursor: pointer;
+}
+
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit]{
+    background-color: #f58a3c;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:#ECF2F4;
+    border: none;
+    overflow-y: scroll;
+    min-height: 80px;
+    resize: vertical;
+}
+
+textarea::placeholder{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form__contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.other__contact .address{
+    width: 200px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f58a3c;
+}
+
+.other__contact a{
+    margin-bottom: 5px;
+    color: #666262;
+}
+
+.other__contact .social{
+    margin-bottom: 10px;
+}
+
+.icon__social {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon__social a img{
+    width: 40px;
+}
+
+.img__other--contact{
+    width: 100%;
+}
+
+.img__other--contact img{
+    width: 100%;
+}
+
+footer{
+    background-color:#ECF2F4;
+    padding: 50px 0;
+}
+
+.cols__container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cols__container .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cols{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cols img{
+    width: 100px;
+}
+
+.cols ul{
+    padding: 0px;
+}
+
+.cols ul a li{
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    h1{
+        font-family: 'Kodchasan', sans-serif;
+        font-size: 50px;
+        margin: 20px 0;
+        width: 800px;
+    }
+
+    h2{
+        font-family: 'Kodchasan', sans-serif;
+        font-size: 40px;
+        padding: 22px 0;
+        color: #666262;
+    }
+    
+    h4{
+        font-family: 'Kodchasan', sans-serif;
+        font-size: 22px;
+        margin: 22px 0;
+        color: #666262;
+        font-weight: bold;
+    }
+
+    p{
+        font-family: 'Montserrat', sans-serif;
+        
+        font-size: 17px;
+    }
+
+    hr{
+        margin: 0px;
+        padding: 0x;
+        border:1px solid #f58a3c;
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    button{
+        margin-right: 20px;
+    }
+
+    header{
+        width: 1350px;
+    }
+
+    .navbar{
+        width: 1350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar img{
+        width: 80px;
+    }
+
+    .navbar nav ul{
+        margin-top: 0;
+    }
+
+    .navbar nav ul a li{
+        margin: 0 20px;
+    }
+
+    .hero__container{
+        width: 1350px;
+        margin: auto;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .img__header img{
+        width: 400px;
+        margin: 0px;
+    }
+
+    .main{
+        width: 100%;
+    }
+    
+    .about{
+        width: 1350px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .img__about{
+        width: 650px;
+    }
+
+    .info__about{
+        width: 650px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .info__about a {
+        margin: 0;
+    }
+
+    .img__about img{
+        width: 650px;
+    }
+
+    .services{
+        width: 1350px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services__type{
+        width: 1350px;
+        
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x: hidden;
+    }
+    
+    .card__services{
+        width: 300px;
+        padding: 20px 50px;
+        box-shadow: 0 0 5px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .card__services h4{
+        text-align: center;
+    }
+    
+    .card__services img{
+        width: 150px;
+    }
+    
+    .card__services a button{
+        background-color: #f58a3c;
+        color: white;
+        padding: 10px 40px;
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 220px;
+        margin: auto;  
+    }
+    
+    .services .icon__scroll{
+        width: 100px;
+        margin: 20px 0;
+    }
+    
+    .services .icon__scroll img{
+        display: none;
+    }
+
+    .numbers__clinic{
+        background-color: #ECF2F4;
+        box-shadow: 1px 1px 5px;
+    }
+    
+    .numbers__clinic--container{
+        width: 1350px;
+        margin: auto;
+        padding: 22px 0;
+        display: block;
+        text-align: left;
+    }
+    
+    .numbers__clinic--container h2{
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+
+    .container__block{
+        width: 1350px;
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 75px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 5px;;
+    }
+
+    .block__numbers{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .block__numbers p{
+        margin-bottom: 0px;
+    }
+
+    .doctor__appointment{
+        width: 100%;
+        padding-bottom: 50px;
+        background-color:#ECF2F4 ;
+    }
+
+    .container__doctor--appointment{
+        width: 1350px;
+        margin: auto;
+        display: flex;
+    }
+
+    .info__doctor--appointment{
+        width: 650px;
+        margin: auto;
+    }
+    
+    .info__doctor--appointment h2{
+        margin-top: 0;
+    }
+    
+    .call__appointment{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .img__doctor--appointment{
+        width: 650px;
+    }
+    
+    .img__doctor--appointment img{
+        width: 100%;
+    }
+
+    .form__contact{
+        margin: 75px 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    form{
+        width: 650px;
+        display: flex;
+        width: 650px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    input[type=submit]{
+        background-color: #f58a3c;
+        color: white;
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    .other__contact{
+        width: 650px
+    }
+
+    .other__contact .address{
+        margin-top: 0;
+        width: 210px;
+    }
+
+    .img__other--contact{
+        width: 400px;
+    }
+
+    .cols__container{
+        width: 1350px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .cols__container .social{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .cols{
+        width: 450px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cols img{
+        width: 100px;
+    }
+    
+    .cols ul{
+        padding: 0px;
+    }
+    
+    .cols ul a li{
+        list-style-type: none;
+    }
+    
+}
+
+/*dividers*/
+.shapedividers_com-2942{
+    overflow:hidden;
+    position:relative;
+    height:100px;
+    }
+    .shapedividers_com-2942::before{
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat; 
+    background-size: 200% 90px;
+    background-position: 50% 0%;    
+    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ecf2f4"/></svg>'); 
+    }
+    
+    @media (min-width:768px){
+    .shapedividers_com-2942::before{
+    background-size: 200% 100px;
+    background-position: 50% 0%;   
+    }  
+    }
+     
+    @media (min-width:1025px){
+    .shapedividers_com-2942::before{ 
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 130% 90px;
+    background-position: 50% 0%;  
+    }
+    }
+    @media (min-width:2100px){
+    .shapedividers_com-2942::before{
+    background-size: 130% calc(2vw + 90px);
+    }
+    }
+
+.shapedividers_com-7578{
+        overflow: hidden;
+        position:relative;
+        background-color: red;
+    }
+    .shapedividers_com-7578::before{
+        content:'';
+        font-family:'shape divider from ShapeDividers.com';
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        top: -1px;
+        z-index: 3;
+        pointer-events: none;
+        background-repeat: no-repeat; 
+        background-size: 200% 90px;
+        background-position: 50% 0%;    
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ffffff"/></svg>'); 
+    }
+        
+    @media (min-width:768px){
+        .shapedividers_com-7578::before{
+        background-size: 100% 100px;
+        background-position: 50% 0%;   
+        }  
+    }
+         
+    @media (min-width:1025px){
+        .shapedividers_com-7578::before{ 
+        bottom: -0.1vw;
+        left: -0.1vw;
+        right: -0.1vw;
+        top: -0.1vw; 
+        background-size: 100% 90px;
+        background-position: 50% 0%;  
+        }
+    }
+    @media (min-width:2100px){
+        .shapedividers_com-7578::before{
+        background-size: 100% calc(2vw + 90px);
+        }
+    }
+         
+    .shapedividers_com-7578--bg{
+            background-color: #ECF2F4;
+            height: 100px;
+    }
+
+
+
+
+
+
+
+
