@@ -161,7 +161,6 @@ p{
     justify-content: center;
     align-items: center;
     width: 250px;
-    margin: auto;
 }
 
 
@@ -280,8 +279,8 @@ p{
 .call__appointment{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .call__appointment a button{
@@ -570,10 +569,13 @@ footer{
         justify-content: center;
         align-items: center;
     }
+
+    .services h2{
+        text-align: center;
+    }
     
     .services__type{
         width: 1350px;
-        
         margin: auto;
         display: flex;
         justify-content: space-evenly;
