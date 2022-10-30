@@ -108,7 +108,6 @@ p{
     list-style-type: none;
     margin: 0 8.5px;
     font-weight: bold;
-
 }
 
 .hero{
@@ -155,7 +154,6 @@ p{
 
 .info__about h2{
     width: inherit;
-    margin: auto;
 }
 
 .info__about a{
@@ -181,6 +179,10 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.services h2{
+    width: 100%;
 }
 
 .services__type{
